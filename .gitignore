@@ -1,0 +1,7 @@
+# Archivos temporales de Visual Studio
+.vs/
+
+# Archivos temporales de Python
+__pycache__/
+.pytest_cache/
+*.pyc
