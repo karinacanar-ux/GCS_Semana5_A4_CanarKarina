@@ -4,9 +4,21 @@ Los cambios relevantes del repositorio se documentan en este archivo.
 
 ## [Unreleased]
 
-- Completar el registro de estados de configuración.
-- Incorporar una plantilla de Pull Request.
-- Formalizar el release v1.1.0.
+- No existen cambios pendientes.
+
+## [v1.1.0] - 2026-08-15
+
+### Agregado
+
+- Registro de estados con diez elementos de configuración.
+- Plantilla de Pull Request con controles de trazabilidad, seguridad y verificación.
+- Evidencias de pruebas y referencias al Issue #1 y al Pull Request #2.
+
+### Cambiado
+
+- Se formalizó la baseline mediante versionado SemVer.
+- Se documentaron los hallazgos y las correcciones de la auditoría.
+- Se preparó el repositorio para una liberación trazable y verificable.
 
 ## [v1.0.1] - 2026-08-15
 
