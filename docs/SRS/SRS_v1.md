@@ -1,11 +1,21 @@
-# SRS v1 (mínimo)
+# Especificación de Requisitos de Software (SRS) v1
 
-REQ-001: El sistema permitirá listar productos.
+## Requisitos funcionales
 
-REQ-002: El sistema permitirá agregar productos con cantidad mayor o igual a cero.
+**REQ-001 — Listar productos:** El sistema permitirá consultar la lista de productos registrados.
 
-RNF-001: Los cambios deben ser trazables a un ISSUE y sus respectivas evidencias.
+**REQ-002 — Agregar productos:** El sistema permitirá agregar un producto siempre que su nombre no esté vacío y su cantidad sea mayor o igual a cero.
 
-RNF-002: El versionado seguirá SemVer mediante tags y changelog.
+**REQ-003 — Filtrar productos por fecha (en revisión):** El sistema permitirá filtrar productos mediante una fecha inicial y una fecha final en formato AAAA-MM-DD. El resultado deberá incluir únicamente los registros comprendidos dentro del intervalo indicado, incluidas las fechas límite.
 
-REQ-003: Filtrar productos por fecha (pendiente de definir criterios).
+> REQ-003 permanece en revisión y no forma parte de las versiones v1.0.0 ni v1.0.1 hasta que sea implementado y verificado.
+
+## Requisitos no funcionales
+
+**RNF-001 — Trazabilidad:** Los cambios deberán relacionarse con un Issue, commit, Pull Request y evidencia verificable.
+
+**RNF-002 — Versionado:** Las versiones deberán seguir SemVer mediante tags con el formato `vMAJOR.MINOR.PATCH`.
+
+## Referencia de auditoría
+
+Las correcciones de este documento se relacionan con `ISSUE-21` y el Issue de GitHub `#1`.
